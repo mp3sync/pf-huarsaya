@@ -1,0 +1,530 @@
+body {
+  margin: 0;
+  background-color: white;
+  height: auto;
+}
+
+.top-nav {
+  display: flex;
+  width: 100%;
+  height: 72px;
+  background: #6BAFD6;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 249px;
+  flex-shrink: 0;
+}
+
+
+
+
+
+.nav {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 249px;
+  align-self: stretch;
+}
+
+
+
+.logo-clinica {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  font-family: Ubuntu;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30.375px; /* 112.5% */
+  
+
+}
+
+.nav-bar {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #555;
+}
+
+.button-reservacita {
+  display: flex;
+  width: 136px;
+  height: 30px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #070707;
+}
+
+.banner-torres {
+  display: flex;
+
+height: auto;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+}
+
+.texto-reservacita {
+  text-decoration: none;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.button-carousel-slider{
+  padding-top: 10px;
+  align-items: flex-start;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 9.6px;
+}
+
+.ellipse{
+  width: 18px;
+height: 18px;
+fill: #D9D9D9;
+
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.container img {
+  display: block;
+  margin: 0 auto;
+}
+
+.data-clinica {
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.data {
+  width: 379px;
+  padding: 24px 0 0 0;
+  align-items: center;
+  gap: 16px;
+}
+
+.texto-data {
+  color: #131313;
+  font-family: Ubuntu;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: -2px;
+}
+
+.texto-data2 {
+  color: #8f8f8f;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.container-section {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: 33px;
+  justify-content: center;
+}
+
+.container-torre {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.torre {
+  width: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.mosaico {
+  border-radius: 8px;
+  width: auto;
+  height: auto;
+}
+
+h1 {
+  color:  #747474;
+text-align: center;
+font-family: Ubuntu;
+font-size: 72px;
+font-style: normal;
+font-weight: 600;
+line-height: 70px; /* 97.222% */
+letter-spacing: -1.44px;
+}
+
+h2 {
+  color: #2A3068;
+  font-family: Ubuntu;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  margin: 0;
+  padding: 40px 0 40px 0;
+}
+
+h3 {
+  color: #8f8f8f;
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  margin: 0;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  margin: 0;
+}
+
+
+
+.container-servicio {
+  display: inline-flex;
+align-items: flex-start;
+gap: 10px;
+}
+
+.servicio{
+  display: flex;
+  width: 296px;
+  height: 275px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  border-radius: 12.188px;
+  background: url(../assets/images/mosaico-servicios.png);
+  position: relative;
+}
+
+.servicio h3{
+  position: absolute;
+  bottom: 28px;
+  margin: 0;
+
+}
+.carousel-alianzas {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+
+.container-alianzas {
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-direction: row;
+
+}
+
+
+.button-carousel-alianzas{
+  padding-top: 10px;
+  align-items: flex-start;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 9.6px;
+}
+
+.container-testimonios {
+  display: inline-flex;
+align-items: flex-start;
+gap: 10px;
+}
+
+.testimonio {
+  width: 296px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+
+.container-contactanos {
+  display: flex;
+  width: auto;
+  text-align: center;
+  height: auto;
+  align-items: flex-start;
+  flex-direction: row;
+  gap: 48px;
+  justify-content: center;
+  padding: 50px 0 40px 0;
+}
+
+.formulario{
+  text-align: left ;
+}
+
+form {
+  display: flex;
+  flex-direction: column; 
+}
+
+.label {
+  width: 592px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background: #131313;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  padding: 48px 104px 48px 104px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.menu-redes .nav-bar {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+
+.logo-menu-redes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: row;
+align-items: flex-start;
+gap:32px;
+
+
+}
+
+.nav-footer li {
+  margin-right: 10px;
+  font-family: Ubuntu;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+
+}
+.nav-footer li a {
+  color: white;
+
+}
+.ao-terminos {
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap:  16px;
+}
+
+  .footer .logo-clinica {
+    color: white; 
+    font-family: Ubuntu;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 57px;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  .menu-redes{
+    display: flex;
+flex-direction: column;
+align-items: flex-end;
+gap: 16px;
+  }
+
+  .redes {
+    display: flex;
+justify-content: flex-end;
+align-items: flex-start;
+gap: 16px;
+  }
+
+ .ao-terminos-line {
+  display: flex;
+flex-direction: column;
+align-items: center;
+gap: 16px;
+ }
+
+ .texto-footer {
+  display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+ }
+
+ .privacy-terms {
+ display: flex;
+align-items: flex-start;
+gap: 24px;
+ }
+
+ .formulario input[type="text"] {
+  display: flex;
+  height: 30px;
+  padding: 12px 12px;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 2px solid #AFAFAF;
+  background: #FFF;
+  margin-bottom: 16px; 
+  font-family: Ubuntu;
+}
+
+
+.formulario textarea {
+  display: flex;
+    height: 50px; 
+    min-height: 50px; 
+    max-height: 100px; 
+    min-width: 379.844px;
+    max-width: 100%;
+    padding: 12px;
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 4px;
+    border: 2px solid #AFAFAF;
+    background: #FFF;
+    margin-bottom: 16px;
+    font-family: "Arial", sans-serif;
+    resize: vertical;
+}
+
+
+.formulario label {
+font-family: Ubuntu;
+padding: 12px 12px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+.boton-enviar,
+.boton-limpiar,
+.boton-js {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.boton-enviar {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.sub-menu-torre {
+  display: flex;
+  flex-direction: row;
+align-items: flex-start;
+gap:32px;
+}
