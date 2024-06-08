@@ -1,117 +1,75 @@
+
+
+
 body {
   margin: 0;
   background-color: white;
   height: auto;
 }
 
-.top-nav {
+.navbar-toggler{
+background-color: #145294;
+
+
+}
+
+.navbar.bg-dark {
+  background-color: #4D92DE !important; 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff !important;
+  font-family: Ubuntu;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #acd5fd !important; 
+}
+.navbar-dark .navbar-brand {
+  color: #ffffff !important;
+  font-family: Kufam;
+}
+
+
+.navbar-dark .navbar-brand:hover {
+  color: #9bcbff !important;
+}
+
+.btn-primary {
+  background-color: #F8892A !important;
+  border-color: #F8892A !important;
+}
+
+.btn-primary:hover {
+  background-color: #e67717 !important;
+  border-color: #e67717 !important;
+}
+
+.nav-link{
   display: flex;
-  width: 100%;
-  height: 72px;
-  background: #6BAFD6;
+  justify-content: center;
+}
+
+.btn.btn-primary.ms-lg-3{
+  display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 249px;
-  flex-shrink: 0;
-}
+  justify-content:center;
 
-
-
-
-
-.nav {
-  display: flex;
-  padding: 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 249px;
-  align-self: stretch;
-}
-
-
-
-.logo-clinica {
-  list-style: none;
-  text-decoration: none;
-  color: #000;
-  font-family: Ubuntu;
-  font-size: 27px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30.375px; /* 112.5% */
   
-
 }
 
-.nav-bar {
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
+.carousel-control-prev-icon {
+  background-image: url('../assets/images/flecha-slider-prev.svg');
+  opacity: 100%;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.carousel-control-next-icon {
+  background-image: url('../assets/images/flecha-slider-next.svg');
+  opacity: 100%;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  font-family: Ubuntu;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  color: #333;
-  font-weight: bold;
-}
-
-nav ul li a:hover {
-  color: #555;
-}
-
-.button-reservacita {
-  display: flex;
-  width: 136px;
-  height: 30px;
-  padding: 12px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  border-radius: 8px;
-  background: #070707;
-}
-
-.banner-torres {
-  display: flex;
-
-height: auto;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-}
-
-.texto-reservacita {
-  text-decoration: none;
-  color: #fff;
-  font-family: Ubuntu;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 17px;
-}
-
-img {
-  max-width: 100%;
-  display: block;
+.carousel-control-prev,
+.carousel-control-next {
 }
 
 .button-carousel-slider{
@@ -122,50 +80,76 @@ img {
   gap: 9.6px;
 }
 
-.ellipse{
-  width: 18px;
-height: 18px;
-fill: #D9D9D9;
 
-}
-
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+.col-sm-4{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
+  padding: 0;
 }
 
-.container img {
-  display: block;
-  margin: 0 auto;
-}
 
 .data-clinica {
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 48px;
-  justify-content: center;
-  text-align: center;
   margin: 0 auto;
 }
 
-.data {
-  width: 379px;
-  padding: 24px 0 0 0;
-  align-items: center;
-  gap: 16px;
-}
+
 
 .texto-data {
   color: #131313;
   font-family: Ubuntu;
-  font-size: 100px;
+  font-size: 60px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100px;
+  line-height: 80px;
   letter-spacing: -2px;
 }
+
+.col-md-6{
+  padding: 50px 30px 50px 30px;
+}
+
+.col-md-12-footer{
+  padding: 10px;
+}
+@media (max-width: 720px) {
+  .col-md-6 {
+    padding: 20px;
+  }
+
+
+}
+
+
+
+@media (max-width: 480px) {
+  .imagen-contactanos {
+    width: 50%;
+    padding-bottom: 20px;
+  }
+
+
+}
+
+
+@media (max-width: 720px) {
+  .imagen-contactanos {
+    width: 80%;
+  }
+
+
+}
+@media (max-width: 480px) {
+  .texto-data{
+  font-size: 50px;
+}
+}
+
 
 .texto-data2 {
   color: #8f8f8f;
@@ -177,15 +161,21 @@ fill: #D9D9D9;
   line-height: 28px;
 }
 
+
+
 .container-section {
-  width: 100%;
+  width: 80%;
+  display: flex;
   text-align: center;
   height: auto;
   flex-shrink: 0;
   flex-direction: row;
   gap: 33px;
   justify-content: center;
+  display: contents;
 }
+
+
 
 .container-torre {
   display: flex;
@@ -195,18 +185,56 @@ fill: #D9D9D9;
 }
 
 .torre {
-  width: 226px;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
 }
 
-.mosaico {
-  border-radius: 8px;
-  width: auto;
-  height: auto;
+
+
+.torre {
+  margin-right: 20px; 
 }
+
+@media (max-width: 767px) {
+  .container-torre {
+      display: block;
+  }
+
+  .torre {
+      width: 100%;
+      margin-right: 0;
+  }
+}
+
+.container-torre {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: auto; 
+  scrollbar-color: #ffffff #4D92DE; 
+  padding: 20px 0 20px 0;
+}
+
+.container-torre::-webkit-scrollbar {
+  width: 50px;
+  
+}
+
+.container-torre::-webkit-scrollbar-track {
+  background-color: #4D92DE;
+
+}
+
+.container-torre::-webkit-scrollbar-thumb {
+  background-color: #ffffff; 
+  border-radius: 20px; 
+  
+  
+}
+
 
 h1 {
   color:  #747474;
@@ -215,7 +243,7 @@ font-family: Ubuntu;
 font-size: 72px;
 font-style: normal;
 font-weight: 600;
-line-height: 70px; /* 97.222% */
+line-height: 70px;
 letter-spacing: -1.44px;
 }
 
@@ -224,10 +252,17 @@ h2 {
   font-family: Ubuntu;
   font-size: 40px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: bolder;
   line-height: 44px;
   margin: 0;
-  padding: 40px 0 40px 0;
+  padding: 30px 0 30px 0;
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 30px;
+    padding: 20px 0;
+  }
 }
 
 h3 {
@@ -355,7 +390,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background: #131313;
+  background: #4D92DE;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -377,7 +412,7 @@ form {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 125% */
+  line-height: 20px;
 }
 
 .logo-menu-redes {
@@ -387,14 +422,48 @@ form {
   align-self: stretch;
 }
 
+@media (max-width: 768px) {
+  .logo-clinica-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+
 .nav-footer {
   display: flex;
   flex-direction: row;
 align-items: flex-start;
 gap:32px;
-
+justify-content: flex-end;
+text-decoration:none;
+display: flex;
 
 }
+
+@media (max-width: 768px) {
+  .nav-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-12-footer  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+
+
 
 .nav-footer li {
   margin-right: 10px;
@@ -410,8 +479,24 @@ line-height: 20px;
 }
 .nav-footer li a {
   color: white;
+  text-decoration: none;
 
 }
+
+.texto-footer{
+ display: flex;
+ flex-direction: row;
+ padding: 10px;
+ gap: 20px;
+ color:  #FFF;
+}
+.texto-footer-p{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  gap: 20px;
+  color: #FFF;
+ }
 .ao-terminos {
   display: flex;
 flex-direction: column;
@@ -419,7 +504,7 @@ align-items: center;
 gap:  16px;
 }
 
-  .footer .logo-clinica {
+  .logo-clinica-text {
     color: white; 
     font-family: Ubuntu;
     font-size: 51px;
@@ -428,7 +513,17 @@ gap:  16px;
     line-height: 57px;
     text-decoration: none;
     list-style: none;
+    padding: 20px;
+    display: flex;
   }
+
+  @media (max-width: 768px) {
+    .logo-clinica-text {
+      font-size: 30px;
+      padding: 10px;
+    }
+  }
+  
   
   .menu-redes{
     display: flex;
@@ -451,13 +546,73 @@ align-items: center;
 gap: 16px;
  }
 
- .texto-footer {
+ .ul.nav-footer {
   display: flex;
 width: 100%;
 justify-content: space-between;
 align-items: center;
- }
+text-decoration: none;
 
+
+}
+
+
+.col-md-4{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .img-fluid  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+}
+
+.col-md-4.d-flex.align-items-center{
+  display: flex;
+  flex-direction: column;
+}
+.row.mb-4-destacado{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  background-color: #E3FAF5;
+  padding: 30px 0 30px 0;
+  border-radius: 30px;
+
+}
+
+
+.main {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.row.mb-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+ 
+  
+}
+
+.flex-sm-fill.text-sm-center.nav-link {
+background: #6BC7B3;
+padding: 10px 0px  10px 0px;
+color: white;
+margin: 5px  20px 5px 20px;
+}
+.flex-sm-fill.text-sm-center.nav-link.active{
+  background: #277e6b;
+
+}
  .privacy-terms {
  display: flex;
 align-items: flex-start;
