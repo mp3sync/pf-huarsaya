@@ -1,0 +1,112 @@
+.navbar-toggler {
+    background-color: $color-background-navbar-toggler;
+  }
+  
+  .navbar.bg-dark {
+    background-color: $color-background-navbar-dark !important;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: $color-nav-link !important;
+    font-family: $font-family-ubuntu;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: $color-nav-link-hover !important;
+  }
+  
+  .navbar-dark .navbar-brand {
+    color: $color-navbar-brand !important;
+    font-family: $font-family-kufam;
+  }
+  
+  .navbar-dark .navbar-brand:hover {
+    color: $color-navbar-brand-hover !important;
+  }
+  
+  .btn-primary {
+    background-color: $color-btn-primary !important;
+    border-color: $color-btn-primary !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: $color-btn-primary-hover !important;
+    border-color: $color-btn-primary-hover !important;
+  }
+  
+  .texto-data {
+    color: $color-texto-data;
+    font-family: $font-family-ubuntu;
+    font-size: $font-size-texto-data;
+    font-weight: 700;
+    line-height: $line-height-texto-data;
+    letter-spacing: $letter-spacing-texto-data;
+  }
+  
+  @media (max-width: 480px) {
+    .texto-data {
+      font-size: $font-size-texto-data-mobile;
+    }
+  }
+  
+  .button-carousel-slider {
+    align-items: flex-start;
+    gap: $gap-button-carousel-slider;
+  }
+
+  .btn.btn-primary.ms-lg-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: url('/assets/images/flecha-slider-prev.svg');
+  opacity: 100%;
+}
+
+.button-carousel-slider {
+  padding-top: $gap-button-carousel;
+  align-items: flex-start;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: $gap-button-carousel;
+}
+
+.col-sm-4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+
+  @media (max-width: 720px) {
+    padding: $padding-col-md-6-mobile;
+  }
+}
+
+.col-md-6 {
+  padding: $padding-col-md-6;
+}
+
+.col-md-12-footer {
+  padding: $padding-col-md-12-footer;
+
+  @media (max-width: 720px) {
+    padding: $padding-col-md-6-mobile;
+  }
+}
+
+.imagen-contactanos {
+  width: 50%;
+
+  @media (max-width: 720px) {
+    width: 80%;
+  }
+
+  @media (max-width: 480px) {
+    padding-bottom: 20px;
+  }
+}
