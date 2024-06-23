@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    background-color: $color-background-body;
+    height: auto;
+  }
+  
+  .navbar-toggler {
+    background-color: $color-background-navbar-toggler;
+  }
+  
+  .navbar.bg-dark {
+    background-color: $color-background-navbar-dark !important;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: $color-nav-link !important;
+    font-family: $font-family-ubuntu;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: $color-nav-link-hover !important;
+  }
+  
+  .navbar-dark .navbar-brand {
+    color: $color-navbar-brand !important;
+    font-family: $font-family-kufam;
+  }
+  
+  .navbar-dark .navbar-brand:hover {
+    color: $color-navbar-brand-hover !important;
+  }
+  
+  .texto-data {
+    color: $color-texto-data;
+    font-family: $font-family-ubuntu;
+    font-size: $font-size-texto-data;
+    font-weight: 700;
+    line-height: $line-height-texto-data;
+    letter-spacing: $letter-spacing-texto-data;
+  }
+  
+  .texto-data2 {
+    color: $color-h3-p;
+    text-align: center;
+    font-family: $font-family-ubuntu;
+    font-size: $font-size-texto-data2;
+    font-weight: 400;
+    line-height: $line-height-texto-data2;
+  }
+  
+  h1 {
+    color: $color-h1;
+    text-align: center;
+    font-family: $font-family-ubuntu;
+    font-size: $font-size-h1;
+    font-weight: 600;
+    line-height: $line-height-h1;
+    letter-spacing: $letter-spacing-h1;
+  }
+  
+  h2 {
+    color: $color-h2;
+    font-family: $font-family-ubuntu;
+    font-size: $font-size-h2;
+    font-weight: bolder;
+    line-height: $line-height-h2;
+    margin: $margin-h2;
+    padding: $padding-h2;
+  }
+  
+  @media (max-width: 480px) {
+    h2 {
+      font-size: $font-size-h2-mobile;
+      padding: $padding-h2-mobile;
+    }
+  }
+  
+ 
+  h3 {
+    color: #8f8f8f;
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0;
+  }
+  
+  p {
+    color: #8f8f8f;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .texto-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 20px;
+    color:$color-background-body;
+  }
+  
+  .texto-footer-p {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 20px;
+    color:$color-background-body;
+  }
+  
+  .nav-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: $gap-nav-footer;
+    justify-content: center;
+    text-decoration: none;
+
+   
+    li {
+      margin-right: 10px;
+      font-family: $font-family-ubuntu;
+      font-size: $font-size-nav-footer;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: $gap-nav-footer;
+    }
+  
+    @media (max-width: 768px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      li {
+        align-items: center;
+      }
+    }
+  
+    a {
+      color: $color-background-body;
+      text-decoration: none;
+    }
+  }
+
+ 
+
+  .logo-clinica-text {
+    color: $color-logo-clinica-text;
+    font-family: $font-family-ubuntu;
+    font-size: $font-size-logo-clinica;
+    font-style: normal;
+    font-weight: $font-weight-logo-clinica;
+    line-height: $line-height-logo-clinica;
+    text-decoration: none;
+    list-style: none;
+    padding: $padding-logo-clinica;
+    display: flex;
+    
+    
+   
+  
+    @media (max-width: 768px) {
+      font-size: $font-size-logo-clinica-mobile;
+      padding: $padding-logo-clinica-mobile;
+     
+    }
+  }
+
+
+  .row.mb-4-destacado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    background-color: #E3FAF5;
+    padding: 30px 0 30px 0;
+    border-radius: 30px;
+  
+  }
+  
+
+  .row.mb-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+   
+    
+  }
