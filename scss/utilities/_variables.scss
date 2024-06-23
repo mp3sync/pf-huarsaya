@@ -20,6 +20,8 @@ $color-input-border: #AFAFAF;
 $color-input-background: #FFF;
 $color-boton-enviar: #007bff;
 $color-boton-enviar-text: #fff;
+$color-logo-clinica-text: white;
+
 
 $font-family-ubuntu: 'Ubuntu', sans-serif;
 $font-family-kufam: 'Kufam', sans-serif;
@@ -57,6 +59,7 @@ $padding-col-md-12-footer: 10px;
 $padding-h2: 30px 0;
 $padding-h2-mobile: 20px 0;
 $padding-container-torre: 20px 0;
+$padding-container-contactanos: 50px 0px 40px 0px;
 $padding-formulario-input: 12px;
 $padding-formulario-textarea: 12px;
 $padding-boton: 10px 20px;
@@ -68,15 +71,18 @@ $padding-nav-link: 10px 0px;
 $gap-nav-link: 32px;
 $gap-button-carousel: 9.6px;
 $gap-button-carousel-slider: 9.6px;
+$gap-container-section: 33px;
 $gap-container-torre: 24px;
 $gap-container-alianzas: 10px;
 $gap-container-testimonios: 10px;
 $gap-container-contactanos: 48px;
+
 $gap-formulario: 10px;
 $gap-texto-footer: 20px;
 $gap-ao-terminos: 16px;
 $gap-redes: 16px;
 $gap-sub-menu-torre: 32px;
+$gap-nav-footer: 32px;
 
 $margin-torre: 20px;
 $margin-col-md-4: 20px;
@@ -88,3 +94,6 @@ $margin-nav-footer-li: 10px;
 $margin-footer-texto: 10px;
 $margin-logo-clinica: 20px;
 $margin-boton: 16px;
+
+$font-weight-logo-clinica: 600;
+$line-height-logo-clinica: 57px;
