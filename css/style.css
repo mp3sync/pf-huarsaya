@@ -587,16 +587,12 @@ text-decoration: none;
 }
 
 
-.main {
-display: flex;
-justify-content: center;
-align-items: center;
-}
 .row.mb-4{
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
+  
  
   
 }
