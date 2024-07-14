@@ -163,8 +163,6 @@
   }
 }
 
-@media (max-width: 760px) {
-
 
 
 
@@ -172,19 +170,19 @@
     overflow-x: auto; /* Habilita el scroll horizontal */
     white-space: nowrap; /* Evita que los elementos se envuelvan a la siguiente línea */
 
- 
+  }
 
   .container-torre::-webkit-scrollbar {
     width: 50px;
   }
 
   .container-torre::-webkit-scrollbar-track {
-    background-color: $color-scrollbar-track;
+    background-color: $color-secondary;
   }
 
   .container-torre::-webkit-scrollbar-thumb {
-    background-color: $color-scrollbar-thumb;
-    border-radius: $border-radius-input;
+    background-color: $color-primary;
+    border-radius: 5px ;
   }
 
   @media (max-width: 760px) {
@@ -197,7 +195,7 @@
     }
 
   }
-}
+
 
 
 .servicio{
@@ -273,14 +271,14 @@
   }
 }
 
-.container-grid{
 
+.container-grid {
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin: 0;
 }
+
 
 .grid-container {
   display: grid;
@@ -293,63 +291,77 @@
   justify-content: center;
   padding-bottom: 30px;
 
+
   @media (max-width: 360px) {
-    grid-template-columns: 1fr; 
-    gap: 20px; 
+    grid-template-columns: 1fr;
+    gap: 20px;
     row-gap: 20px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
   }
+
 
   .grid-item {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
+
 
     @media (max-width: 360px) {
-      row-gap: 0; 
+      row-gap: 0;
     }
 
+
     img {
-      max-width: 100%; 
-      height: auto; 
+      max-width: 100%;
+      height: auto;
       border-radius: $border-radius;
       box-shadow: $box-shadow;
+
 
       @media (max-width: 360px) {
         width: 100%;
       }
     }
   }
+}
 
-  .cuadro1 img {
-    width: 394px;
-    height: 247px;
 
-    @media (max-width: 360px) {
-      width: 100%; 
-      height: auto; 
-    }
-  }
+.cuadro1 img {
+  width: 394px;
+  height: 247px;
 
-  .cuadro2 {
-    grid-column: span 2;
 
-    @media (max-width: 360px) {
-      grid-column: auto; 
-    }
-  }
-
-  .cuadro2 img {
-    width: 816px;
-    height: 247px;
-
-    @media (max-width: 360px) {
-      width: 100%; 
-      height: auto; 
-    }
+  @media (max-width: 360px) {
+    width: 100%;
+    height: auto;
   }
 }
+
+
+.cuadro2 {
+  grid-column: span 2;
+
+
+  @media (max-width: 360px) {
+    grid-column: auto;
+  }
+}
+
+
+.cuadro2 img {
+  width: 816px;
+  height: 247px;
+
+
+  @media (max-width: 360px) {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
 
 .video-container {
   max-width: 1080px;
@@ -492,4 +504,4 @@ a {
 .text-center {
   text-align: center !important;
 }
-}
+
