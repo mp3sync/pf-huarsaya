@@ -66,6 +66,8 @@ body {
     line-height: $line-height-h2;
     margin: $margin-h2;
     padding: $padding-h2;
+
+
   }
   
   @media (max-width: 480px) {
@@ -82,24 +84,27 @@ body {
     font-size: 28px;
     font-weight: 500;
     line-height: 40px;
+    padding: 20px;
     margin: 0;
   }
   
   p {
     color: #8f8f8f;
     font-family: Ubuntu;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 28px;
+    padding: 10px;
     margin: 0;
   }
 
 
 
 
-
-
-
+    .flex-sm-fill   {
+  font-family: $font-family-ubuntu;
+  font-size: $font-size-h3;
+}
 
 
 

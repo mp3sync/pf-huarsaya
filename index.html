@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clínica de salud integral especializada en atención médica de calidad, servicios de maternidad, pediatría, cardiología y más. Contamos con un equipo de profesionales dedicados a cuidar de su bienestar.">
+    <meta name="keywords" content="clínica, salud integral, atención médica, maternidad, pediatría, cardiología, profesionales de salud, bienestar, servicios médicos, cuidado de la salud, clínica especializada">
+
+
     <title>Home</title>
     <link rel="shortcut icon" href="./assets/images/icon-vz.svg">
 
@@ -17,6 +21,7 @@
 
    <!-- Custom SCSS -->
    <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
  
 
@@ -96,7 +101,7 @@
    
 
       <section class="container-section">
-        <h2>Data</h2>
+        <h2 class="animate__animated animate__headShake">Data</h2>
       
         <div class="row">
             <div class="col-sm-4">
@@ -120,51 +125,44 @@
 
 </section>
 <section class="container-section">
-    <h2>Torres</h2>
-    <div id="carouselclini" class="carousel slide" data-bs-ride="carousel">
-      
-
-        <div class="carousel-inner">
+    <h2 class="animate__animated animate__headShake">Torres</h2>
+    <div class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
     
             <div class="carousel-item active">
                 <div class="container-torre d-flex justify-content-between">
-                 
                     <div class="torre">
                         <img class="mosaico" src="assets/images/mosaico-torres-1.png" alt="Torre-1">
                         <h3>Consultorios</h3>
                         <p>Calle 10, N° 25</p>
                     </div>
                     <div class="torre">
-                        <img class="mosaico" src="assets/images/mosaico-torres-2.png" alt="Torre-1">
+                        <img class="mosaico" src="assets/images/mosaico-torres-2.png" alt="Torre-2">
                         <h3>Especialidades</h3>
                         <p>Av. Sol, 123</p>
                     </div>
                     <div class="torre">
-                        <img class="mosaico" src="assets/images/mosaico-torres-3.png" alt="Torre-1">
+                        <img class="mosaico" src="assets/images/mosaico-torres-3.png" alt="Torre-3">
                         <h3>Emergencia</h3>
                         <p>Plaza Mayor, 8</p>
                     </div>
                     <div class="torre">
-                        <img class="mosaico" src="assets/images/mosaico-torres-4.png" alt="Torre-1">
+                        <img class="mosaico" src="assets/images/mosaico-torres-4.png" alt="Torre-4">
                         <h3>Hospitalización</h3>
                         <p>Ruta 6, Km 50</p>
                     </div>
                     <div class="torre">
-                        <img class="mosaico" src="assets/images/mosaico-torres-5.png" alt="Torre-1">
+                        <img class="mosaico" src="assets/images/mosaico-torres-5.png" alt="Torre-5">
                         <h3>Oftalmología</h3>
                         <p>Pje. Libertad, 12</p>
                     </div>
-                                  </div>
-            </div>
-     
-        </div>
-    </div>
+                </div>
 </section>
 
 
         <section class="container-section">
-            <h2>Servicios destacados</h2>
-            <div id="carouselclini" class="carousel slide" data-bs-ride="carousel">
+            <h2 class="animate__animated animate__headShake">Servicios destacados</h2>
+            <div class="carousel slide" data-bs-ride="carousel">
              <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="container-torre d-flex justify-content-between">
@@ -187,8 +185,8 @@
         </section>
 
         <section class="container-section">
-            <h2>Alianzas</h2>
-            <div id="carouselclini" class="carousel slide" data-bs-ride="carousel">
+            <h2 class="animate__animated animate__headShake">Alianzas</h2>
+            <div class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="container-torre d-flex justify-content-between">
@@ -215,8 +213,8 @@
         </section>
 
         <section class="container-section">
-            <h2>Testimonios</h2>
-            <div id="carouselclini" class="carousel slide" data-bs-ride="carousel">       
+            <h2 class="animate__animated animate__headShake">Testimonios</h2>
+            <div class="carousel slide" data-bs-ride="carousel">       
                     <div class="carousel-inner">
                   
                     <div class="carousel-item active">
@@ -255,7 +253,7 @@
      
 
         <section class="container-section">
-            <h2>Contáctanos</h2>
+            <h2 class="animate__animated animate__headShake">Contáctanos</h2>
             <div class="row">
                 <div class="col-md-6">
                     <img class="imagen-contactanos" src="assets/images/imagen-contactanos.png" alt="contacto">
@@ -263,7 +261,7 @@
                 <div class="col-md-6">
                     <div class="formulario">
                        
-                        <p>Por favor, proporciona tus datos; nos comunicaremos contigo pronto.</p>
+                        <p>Por favor, proporciona tus datos;nos comunicaremos contigo pronto.</p>
                         <form action="./procesar.php" method="post" enctype="multipart/form-data">
                             <div class="mb-3">
                                 <label for="full-name" class="form-label">Nombre Completo</label>
@@ -288,7 +286,6 @@
         
 
 
-    </section>
 
     </main>
     <footer id="footer">
@@ -319,8 +316,8 @@
                            
                             <div class="texto-footer">
                                 <p class="texto-footer-p">2024</p>
-                                <p class="texto-footer-p">Privacy &amp; Policy</p>
-                                <p class="texto-footer-p">Terms &amp; Conditions</p>
+                                <p class="texto-footer-p">Privacy &amp;Policy</p>
+                                <p class="texto-footer-p">Terms &amp;Conditions</p>
                             </div>
                         </div>
                     </div>

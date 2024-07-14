@@ -26,11 +26,11 @@ $color-logo-clinica-text: white;
 $font-family-ubuntu: 'Ubuntu', sans-serif;
 $font-family-kufam: 'Kufam', sans-serif;
 
-$font-size-h1: 72px;
-$font-size-h2: 40px;
-$font-size-h2-mobile: 30px;
-$font-size-h3: 28px;
-$font-size-p: 20px;
+$font-size-h1: 45px;
+$font-size-h2: 30px;
+$font-size-h2-mobile: 20px;
+$font-size-h3: 24px;
+$font-size-p: 18px;
 $font-size-texto-data: 60px;
 $font-size-texto-data-mobile: 50px;
 $font-size-texto-data2: 24px;
@@ -97,3 +97,24 @@ $margin-boton: 16px;
 
 $font-weight-logo-clinica: 600;
 $line-height-logo-clinica: 57px;
+
+$nav-bg-color: #61a4e7;
+$nav-link-color: #185697;
+$nav-link-hover-color: white;
+$nav-link-active-color: #fff;
+$nav-link-active-bg-color: $nav-link-color;
+$nav-link-click-color: #9cc9f3;
+
+$element-spacing: 10px;
+
+
+$background-color: #f0f0f0;
+$gap-size: 10px;
+$min-column-width: 200px;
+$max-width: 1200px;
+$border-radius: 8px;
+$box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+$color-primary: #3d92d8;
+$color-secondary: #0f3164;
