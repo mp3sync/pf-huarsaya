@@ -148,53 +148,52 @@
   }
 
 
+  .torre {
+    width: 300px; /* Ancho fijo para cada .torre */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Espacio entre cada .torre */
+    margin-right: 20px; /* Margen derecho entre .torre */
   
-.torre {
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: $gap-container-torre;
-  margin-right: $margin-torre;
-
-  @media (max-width: 760px) {
-    width: 100%;
-    margin-right: 0;
+    @media (max-width: 760px) {
+      width: 80%; /* Ancho ajustado para dispositivos móviles */
+      margin-right: 0; /* Eliminar margen derecho en dispositivos móviles */
+    }
+  
+    p {
+      max-width: 100%; /* Aprovechar el ancho disponible */
+      text-align: center;
+      font-size: 1em; /* Tamaño de fuente relativo */
+      line-height: 1.6;
+      margin-bottom: 10px;
+      word-wrap: break-word;
+    }
   }
-}
-
-
-
-
+  
   .container-torre {
     overflow-x: auto; /* Habilita el scroll horizontal */
     white-space: nowrap; /* Evita que los elementos se envuelvan a la siguiente línea */
-
+    width: 80%; /* Ancho del contenedor ajustado */
+  
+    @media (max-width: 760px) {
+      width: 100%; /* Ancho completo en dispositivos móviles */
+    }
   }
-
+  
   .container-torre::-webkit-scrollbar {
-    width: 50px;
+    width: 10px; /* Ancho del scrollbar */
   }
-
+  
   .container-torre::-webkit-scrollbar-track {
-    background-color: $color-secondary;
+    background-color: $color-secondary; /* Color del track del scrollbar */
   }
-
+  
   .container-torre::-webkit-scrollbar-thumb {
-    background-color: $color-primary;
-    border-radius: 5px ;
+    background-color: $color-primary; /* Color del thumb del scrollbar */
+    border-radius: 5px; /* Radio del borde del thumb */
   }
-
-  @media (max-width: 760px) {
-    .container-torre {
-      display: block;
-    }
-    .torre {
-      width: 100%;
-
-    }
-
-  }
+  
 
 
 
